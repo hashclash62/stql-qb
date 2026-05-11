@@ -1,0 +1,47 @@
+title: STQL Notes — TY Engineering, PCCOE
+description: Software Testing and Quality — Study Notes by Unit
+theme: minima
+
+plugins:
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+relative_links:
+  enabled: true
+  collections: true
+
+optional_front_matter:
+  enabled: true
+
+readme_index:
+  enabled: true
+
+titles_from_headings:
+  enabled: true
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+exclude:
+  - agent-skill-generate-notes.md
+  - unit1-questions.md
+  - unit2-questions.md
+  - unit3-questions.md
+  - unit4-questions.md
+  - unit5-questions.md
+  - unit6-questions.md
+  - unit1-syllabus.md
+  - unit2-syllabus.md
+  - unit3-syllabus.md
+  - unit4-syllabus.md
+  - unit5-syllabus.md
+  - unit6-syllabus.md
+  - Gemfile
+  - Gemfile.lock
